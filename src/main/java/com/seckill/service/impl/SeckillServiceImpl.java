@@ -99,6 +99,7 @@ public class SeckillServiceImpl implements SeckillService {
             logger.error(e.getMessage(),e);
             //所有编译器异常转化为运行期异常
             throw new SeckillExcetpion("seckill innor error:"+ e.getMessage());
+            //SeckillExcetpion  ==> Exception 
         }
     }
 
